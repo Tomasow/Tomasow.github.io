@@ -1,0 +1,88 @@
+/* ---------------     NUMBERS    ----------------- */
+
+.numbers-title {
+    padding: 0 30px;
+}
+
+.numbers-list {
+    width: 80%;
+    margin: 0 auto;
+    @media (min-width: 860px) {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.number {
+    margin-top: 50px;
+    padding: 0 20px;
+    @media (min-width: 860px) {
+        width: 33%;
+        margin-top: 100px;
+    }
+}
+
+.number-icon {
+    height: 63px;
+    width: 63px;
+    background-color: var(--color7);
+    border-radius: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.number-icon::after {
+    content: " ";
+    width: 70px;
+    height: 63px;
+    position: absolute;
+}
+
+.number-1 .number-icon {
+    background-color: var(--color2);
+}
+
+.number-1 .number-icon::after {
+    background: transparent url(../assets/Person.svg) no-repeat 00;
+    right: -37px;
+    top: -3px;
+}
+
+.number-2 .number-icon {
+    background-color: var(--color1);
+}
+
+.number-2 .number-icon::after {
+    background: transparent url(../assets/Eye.svg) no-repeat 00;
+    right: -28px;
+    top: 3px;
+}
+
+.number-3 .number-icon {
+    background-color: var(--color3);
+}
+
+.number-3 .number-icon::after {
+    background: transparent url(../assets/Catalog.svg) no-repeat 00;
+    right: -35px;
+    top: -3px;
+}
+
+.number-number {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1em;
+    // font-weight: 600;
+    font-weight: 800;
+    font-size: 1.4em;
+    letter-spacing: 3px;
+    margin-top: 14px;
+}
+
+.number-text {
+    color: var(--color7);
+    margin-top: 10px;
+    line-height: 1.3em;
+}
+
+
+/* ------------     NUMBERS END   ----------------- */

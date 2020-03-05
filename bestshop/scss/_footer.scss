@@ -1,0 +1,56 @@
+/* ------------     FOOTER START   ----------------- */
+
+.footer {
+    background-color: var(--color9);
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    height: 89px;
+    align-content: center;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-logo {
+    font-weight: 300;
+    font-size: 1.6em;
+}
+
+.footer-logo a {
+    color: var(--color1);
+}
+
+.footer-copywright {
+    font-size: 0.7em;
+    color: var(--color7);
+}
+
+.footer-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-right li a {
+    padding: 5px;
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+.footer-right .twitter a {
+    background: transparent url("../assets/Twitter.svg") no-repeat center;
+    margin-right: 20px;
+}
+
+.footer-right .facebook a {
+    background: transparent url("../assets/Facebook.svg") no-repeat center;
+}
+
+
+/* ------------     FOOTER END   ----------------- */

@@ -1,0 +1,130 @@
+/* ----------------- klasy ogolne -------------- */
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.clr {
+    clear: both;
+}
+
+ :root {
+    --color1: #08a6e4;
+    --color2: #fb3b64;
+    --color3: #55dfb4;
+    --color4: #000;
+    --color5: #707070;
+    --color6: #95989a;
+    --color7: #a5a5a5;
+    --color8: #fff;
+    --color9: #f7f7f7;
+    --color10: #13253B;
+    --color11: #c4cace;
+}
+
+.easy {
+    transition: 0.3s;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    background: var(--color9);
+    color: var(--color4);
+}
+
+input[type="text"],
+input[type="email"] {
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--color11);
+    display: block;
+    width: 100%;
+    padding: 10px 0 12px;
+    margin-bottom: 36px;
+    font-size: 1.7em;
+    color: var(--color7);
+    font-weight: 300;
+}
+
+label {
+    color: var(--color1);
+    font-size: 0.75em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1em;
+    margin: auto;
+    font-weight: 400;
+    @media (min-width: 860px) {
+        font-weight: 600;
+    }
+}
+
+h2 {
+    font-size: 2em;
+    line-height: 1.3em;
+    @media (min-width: 860px) {
+        font-size: 2.1em;
+    }
+}
+
+section,
+header,
+footer {
+    background-color: var(--color8);
+    width: 100%;
+}
+
+.container {
+    max-width: 1352px;
+    margin: 0 auto;
+    padding: 80px 20px 40px;
+    text-align: center;
+    overflow: hidden;
+    @media (min-width: 860px) {
+        padding: 105px 10px;
+    }
+}
+
+.btn {
+    color: var(--color8);
+    background: var(--color1);
+    border: none;
+    display: inline-block;
+    border-radius: 45px;
+    padding: 16px 60px;
+    margin: 30px 0;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0px 12px 26px -19px var(--color1);
+    &:hover {
+        background: var(--color7);
+        box-shadow: 0px 12px 26px -19px var(--color7);
+    }
+}
+
+
+/* ----------   klasy ogolne END   ------------- */
